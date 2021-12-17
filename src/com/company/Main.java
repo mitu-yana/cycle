@@ -13,8 +13,12 @@ public class Main {
         for (int i = 0; i <  array.length; i++) {
             System.out.println("введите элемент массива");
             array[i] = L.nextInt();
+        }
+        System.out.println("Проверка на наличие констант в массиве...");
+        for (int i = 0; i <  array.length; i++) {
             if (array[i] == x || array[i] == y || array[i] == z ) {
-                System.out.println("Данное значение имеется в константах");
+                System.out.print(array[i]);
+                System.out.println(" Данное значение имеется в константах");
             }
         }
     }
