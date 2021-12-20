@@ -19,6 +19,7 @@ public class Main {
             if (array[i] == x || array[i] == y || array[i] == z ) {
                 System.out.print(array[i]);
                 System.out.println(" Данное значение имеется в константах");
+                break;
             }
         }
     }
